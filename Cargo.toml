@@ -1,0 +1,10 @@
+[package]
+name = "i256"
+version = "0.1.0"
+edition = "2018"
+license = "Apache-2.0"
+authors = ["Wei Tang <hi@that.world>", "Parity Technologies <admin@parity.io>"]
+description = "Signed 256-bit integer"
+
+[dependencies]
+primitive-types = { version="0.10", default-features=false }
