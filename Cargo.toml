@@ -1,0 +1,10 @@
+[package]
+name = "i256"
+version = "0.1.0"
+edition = "2021"
+description = "Signed 256-bit integer operations"
+license = "MPL-2.0"
+authors = ["Artem Vorotnikov <artem@vorotnikov.me>"]
+
+[dependencies]
+ethnum = { version = "1", default-features = false }
