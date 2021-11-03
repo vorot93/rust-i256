@@ -1,4 +1,5 @@
 #![allow(clippy::eq_op, clippy::from_over_into, clippy::identity_op)]
+#![no_std]
 use core::{
     cmp::Ordering,
     ops::{Div, Rem},
@@ -136,7 +137,7 @@ impl Rem for I256 {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use std::num::Wrapping;
+    use core::num::Wrapping;
 
     #[test]
     fn div_i256() {
