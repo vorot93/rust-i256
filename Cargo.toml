@@ -7,4 +7,4 @@ authors = ["Wei Tang <hi@that.world>", "Parity Technologies <admin@parity.io>"]
 description = "Signed 256-bit integer"
 
 [dependencies]
-primitive-types = { version = "0.10", default-features = false }
+primitive-types = { version = "0.11", default-features = false }
